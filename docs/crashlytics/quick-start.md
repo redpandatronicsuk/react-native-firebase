@@ -84,7 +84,7 @@ async function onSignIn(user) {
     crashlytics().setAttribute('credits', user.credits),
   ]);
 
-  crashlytics.crash();
+  crashlytics().crash();
 }
 ```
 
